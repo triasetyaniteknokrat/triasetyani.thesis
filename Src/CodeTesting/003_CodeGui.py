@@ -762,7 +762,7 @@ class App(tk.Tk):
     def __init__(self):
         super().__init__()
 
-        self.title("DORIS JUARSA - 24321025")
+        self.title("TRIA SETYANI - 24321026")
         self.geometry(f"{WINDOW_WIDTH}x{SQUARE+250}")
         self.configure(bg="#f8f8f8")
         self.resizable(False, False)
@@ -784,10 +784,9 @@ class App(tk.Tk):
         banner_lbl = tk.Label(
             banner,
             text=(
-                "Model Deteksi Objek Real-Time Untuk Klasifikasi Otomatis Subtipe Leukosit "
-                "Pada Citra Mikroskopis Darah Dengan YOLOv8\n"
-                "Dibuat oleh: Doris Juarsa | NPM: 24321025\n"
-                "Pembimbing: Dr. Erliyan Redy Susanto, S.Kom., M.Kom. | Penguji 1: Dr. Rohmat Indra Borman, M.Kom."
+                "PENGEMBANGAN MODEL DETEKSI REAL-TIME SEL DARAH MERAH MENGGUNAKAN YOLOV8 UNTUK ANALISIS CITRA MIKROSKOPIS DARAH\n"
+                "Dibuat oleh: Tria Setyani | NPM: 24321026\n"
+                "Pembimbing: Dr. Erliyan Redy Susanto, S.Kom., M.Kom. | Penguji 1: Dr. Rusliyawati, S.Kom., M.T.I."
             ),
             bg="#f8f8f8",
             fg="#222",
